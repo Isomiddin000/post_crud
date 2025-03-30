@@ -26,5 +26,6 @@ class StorePostRequest extends FormRequest
             'description' => 'required|string|min:8',
             'price' => 'nullable|numeric|min:0',
         ];
+        
     }
 }
